@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #202020;
+    color: white;
+    font-family: "Archivo",sans-serif;
+}
+/* FONTS */
+h1{
+   font-weight: 700;
+   font-size: 60px;
+}
+h2{
+   font-weight: 35px;
+}
+h3{
+
+}
+h4{
+
+}
+h5{
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 30px;
+}
+p{
+    font-size: 16px;
+    line-height: 25px;
+}
+.red{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+header{
+    padding: 30px 10%;
+    display: flex;
+    justify-content: space-between;
+}
+.tin{
+    font-weight: 300;
+}
+.button{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+button{
+    color: white;
+    border-radius: 5px;
+    padding: 10px 30px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    background-color: #10AF76;
+}
+.hero{
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+.hero p{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.left,.right{
+    width: 50%;
+}
+.hero .right img{
+    width: 80%;
+}
+.work-tile{
+    margin-top: 50px;
+    display: flex;
+     gap: 40px;
+    flex-wrap: wrap;
+}
+.card{
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #303030;
+    width: 43%;
+    box-shadow: 0 0 20px rgba(0,0,0.142);
+}
+.card img{
+    width: 100%;
+    border-radius: 16px;
+}
+.work p{
+    color: #6E6E6E;
+    font-weight: 700;
+    margin: 20px 0;
+}
+.test p{
+   color: #6E6E6E;
+}
+.test h1{
+    margin-top: 15px;
+    margin-bottom: 45px;
+}
+.test h5{
+    margin-bottom: 20px;
+}
+.test-tile{
+    display: flex;
+    gap: 40px;
+}
+section,footer{
+    padding: 100px 10%;
+}
+footer{
+    box-shadow: 0-10px 20px rgba(0,0,0,0.142);
+}
+footer .top h1{
+    text-align: center;
+}
+.contact{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    align-items: end;
+    border-bottom: 2px solid #6E6E6E;
+}
+.location{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.socials{
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+footer .logo{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+footer p{
+    text-align: center;
+    color: #6E6E6E;
+
+}
