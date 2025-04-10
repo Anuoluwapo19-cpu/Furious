@@ -9,19 +9,12 @@ body{
     color: white;
     font-family: "Archivo",sans-serif;
 }
-/* FONTS */
 h1{
    font-weight: 700;
    font-size: 60px;
 }
 h2{
    font-weight: 35px;
-}
-h3{
-
-}
-h4{
-
 }
 h5{
   font-weight: 400;
@@ -122,7 +115,7 @@ footer .top h1{
 .contact{
     display: flex;
     justify-content: space-between;
-    padding: 20px 0;
+    padding: 20px 0px;
     align-items: end;
     border-bottom: 2px solid #6E6E6E;
 }
